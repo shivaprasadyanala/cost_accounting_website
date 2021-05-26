@@ -1,0 +1,187 @@
+<html>
+
+    <head>
+        <title>Main</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-storage.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="styler.css">
+
+
+    </head>
+
+    <body class="h-100">
+
+        <nav class="navbar navbar-expand-lg bg-dark text-white">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a class="navbar-brand" style="color: whitesmoke; text-decoration-style: wavy;" href="#">
+                            Home
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+               
+
+                <div class="dropdown navbar-right">
+                    <button
+                    id="option-id"
+                    class="btn btn-light dropdown-toggle bg-dark text-white"
+                    type="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >
+                        Services
+                    </button>
+                
+                <div
+                class="dropdown-menu"
+                aria-labelledby="option-id">
+                <a class="dropdown-item" id="btn-logout" href="Login.html">
+                    Cash Management
+                </a>
+                <a class="dropdown-item" id="btn-logout" href="Login.html">
+                    M & A Assistance
+                </a>
+                <a class="dropdown-item" id="btn-logout" href="Login.html">
+                    Branding
+                </a>
+                <a class="dropdown-item" id="btn-logout" href="Login.html">
+                    Local Enterprise 
+                </a>
+            </div>
+            </div>
+
+            </div>
+
+            <div class="dropdown navbar-right">
+                <button
+                id="option-id"
+                class="btn btn-light dropdown-toggle bg-dark text-white"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >
+                    Contact Us
+                </button>
+            
+            <div
+            class="dropdown-menu"
+            aria-labelledby="option-id">
+            <a class="dropdown-item" id="btn-logout" href="">
+                email-xyz@gmail.com<br>
+                Phone-12122121212121212
+            </a>
+        </div>
+        </div>
+
+                <div class="dropdown navbar-right">
+                    <button
+                    id="option-id"
+                    class="btn btn-light dropdown-toggle bg-dark text-white"
+                    type="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >
+                        Options
+                    </button>
+                
+                <div
+                class="dropdown-menu"
+                aria-labelledby="option-id">
+                <a class="dropdown-item" id="btn-logout" href="https://www.google.com/">
+                    Exit
+                </a>
+            </div>
+            </div>
+
+            </div>
+        </nav>
+        <p></p>
+        <p></p>
+
+        <p><h3 style="text-align: center;">Welcome to Accounting !!</h3></p>
+
+        <div class="slider">
+
+        </div>
+
+        <div class="box">
+            <div class="imgBx">
+                <img src="aboutus.jpg">
+            </div>
+            <div class="content">
+                <p></p>
+                <h2>About Us</h2>
+                <p>
+                    We are a firm which is motivated and determined to help our customer to come up with better and optimal money management techniques. Which will help them save there money in more effective manner. We constantly work to come up with plans which will not only help them to save but also help them to grow there buiseness more effectiently. 
+                </p>
+                <p></p>
+                <p></p>
+                <p></p>
+            
+                
+            </div>
+            
+        </div>
+
+        <p><h6 style="text-align: center;"> Services provided by us</h6></p>
+        
+        <div class="wrapper">
+            <div class="card">
+                <img src="h1.jpg">
+                <div class="info">
+                    <h1>Cost Management</h1>
+                    <p>In this service we provide you with the cost management of your personal expense and the comapnies expense</p>
+                    <a href="#" class="btn">Click for more info</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="h2.jpg">
+                <div class="info">
+                    <h1>M & A Assistance</h1>
+                    <p>In this service we guide clients who need help with mergers and acquisitions, as well as debt and equity financing</p>
+                    <a href="#" class="btn">Click for more info</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="h3.jpg">
+                <div class="info">
+                    <h1>Branding</h1>
+                    <p>In this service we provide the most optimum way to promote thier brand and reach out to as many people as possible which will result in more profit</p>
+                    <a href="#" class="btn">Click for more info</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="h4.jpg">
+                <div class="info">
+                    <h1>Local Enterprise</h1>
+                    <p>This service focus on small scale buiseness who wants to grow on bigger level with minimun expense and maximum profit</p>
+                    <a href="#" class="btn">Click for more info</a>
+                </div>
+            </div>
+            
+
+        </div>
+        
+
+        
+        </body>
+
+
+</html>
