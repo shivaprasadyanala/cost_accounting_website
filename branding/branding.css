@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@font-face {
+  font-family: myfont;
+  src: url("../fonts/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: myfont2;
+  src: url("../fonts/WorkSans-Thin.ttf");
+}
+@font-face {
+  font-family: myfont3;
+  src: url("../fonts/WorkSans-Thin.ttf");
+}
+@font-face {
+  font-family: myfont4;
+  src: url("../fonts/Battambang-Bold.ttf");
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  font-weight: 500;
+  margin-left: 10px;
+  font-family: "Oswald";
+  /* font-size: 20px; */
+}
+.nav-item .active .nav-link a:hover {
+  color: blue;
+}
+.image-section {
+  position: relative;
+}
+.title-decorated::before {
+  content: "";
+  position: absolute;
+  /* position: relative; */
+  display: block;
+  top: 5.5rem;
+  left: 50px;
+  width: 60px;
+  border: 1px solid;
+  color: #aeb1be;
+}
+.breadcrumbs-custum-subtitle {
+  position: absolute;
+  display: block;
+  top: 4.8rem;
+  left: 120px;
+  font-family: "Oswald";
+  font-size: 20px;
+  color: #aeb1be;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+}
+#titlename {
+  position: absolute;
+  top: 7rem;
+  left: 3rem;
+  color: #fff;
+  font-family: "work sans";
+  font-size: 65px;
+}
+.list {
+  position: absolute;
+  display: flex;
+  top: 12.5rem;
+  left: 10px;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+a {
+  list-style-type: none;
+  color: #aeb1be;
+  transition: 0.5s;
+}
+a:hover {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+}
+li {
+  margin: 10px;
+}
+span {
+  margin: 11px;
+  color: #aeb1be;
+}
+.mycol {
+  font-family: "work sans";
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  /* background-color: gray;
+  color: #fff; */
+}
+#col2 {
+  border-left: 1px solid #fff;
+}
+.text {
+  background-color: gray;
+  color: #fff;
+}
+#branding {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.services-list {
+  list-style-type: decimal;
+}
+#services {
+  font-weight: bold;
+  text-decoration: none solid rgb(45, 55, 66);
+}
+.prices {
+  display: flex;
+  font-family: "work sans";
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none solid rgb(45, 55, 66);
+}
+.mycol2 {
+  font-family: "work sans";
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin-left: 10px;
+  background-color: aquamarine;
+}
+.mycol2 h2 {
+  font-weight: bold;
+}
+/* .wow-outer {
+  position: relative;
+  overflow: hidden;
+} */
+/* #line {
+  border-bottom: 1px solid #aeb1be;
+} */
+.btn {
+  font-family: "oswald";
+  letter-spacing: 1.5px;
+  transition: 0.7s;
+  margin-left: 100px;
+}
+.btn:hover {
+  /* color: rebeccapurple; */
+  background-color: red;
+  color: aquamarine;
+}
+.pricing-type {
+  background-color: black;
+  color: #fff;
+  padding: 0px;
+  /* font-family: myfont4; */
+  display: flex;
+  justify-content: center;
+}
+.price {
+  display: flex;
+  justify-content: center;
+}
+.mycol2 {
+  padding: 0px;
+}
+.wrapper {
+  /* background-color: red; */
+  /* margin: 0px; */
+  margin: 10px;
+}
+footer {
+  background-color: #2d3742;
+  width: auto;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  padding: 4%;
+  padding-left: 20%;
+  color: white;
+}
+.headings {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 5%;
+  letter-spacing: 3px;
+  font-weight: 200%;
+  font-size: 170%;
+}
+
+.foot {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+footer .links a {
+  opacity: 0.8;
+  transition: 1s;
+}
+
+footer .links a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+footer .services a {
+  opacity: 0.8;
+  transition: 1s;
+}
+
+footer .services a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+footer .services {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer .services p {
+  line-height: 30px;
+}
+
+footer .logodiv {
+  margin-top: 80px;
+}
+
+.copy {
+  background-color: #02040f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 30%;
+  padding-bottom: 5%;
+}
+
+footer .rights a,
+footer .rights {
+  margin-top: 100px;
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
